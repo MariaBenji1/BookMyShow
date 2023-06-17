@@ -9,8 +9,6 @@ Functional Requirements
 	2. Users :
 	• Set city location
 	• Search based on movies /language/genres/format
-	• Display movie information like trailer,format(2D,4D), duration, cast,reviews, offers (Read only)
-	• Display dates of screening ,theater location ,display seat availability (Read only)
 	• Book by selecting date and time, location, number of seats (limit per transaction),seat location
 	• Choose payment method, apply offers available, make payment
 	• Receive confirmation or failure notification
@@ -33,7 +31,9 @@ Functional Requirements
 	4. System
 	• Onboarding
 	. Add/Update/Delete movie details and theatre information
-	• Handle concurrency while booking
+        • Display movie information like trailer,format(2D,4D), duration, cast,reviews, offers (Read only)
+	• Display dates of screening ,theater location ,display seat availability (Read only)
+        • Handle concurrency while booking
 	• Billing amount calculation
 	• Payment confirmation 
 	• Ticket Generation
