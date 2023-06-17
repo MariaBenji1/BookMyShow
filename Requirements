@@ -1,0 +1,55 @@
+Functional Requirements
+
+	1. Actors :
+	• Users
+	• Operator 
+	• Theatre partners
+	• System Admin
+  
+  
+	2. Users :
+	• Set city location
+	• Search based on movies /language/genres/format
+	• Display movie information like trailer,format(2D,4D), duration, cast,reviews, offers
+	• Display dates of screening ,theater location ,display seat availability
+	• Book by selecting date and time, location, number of seats (limit per transaction),seat location
+	• Choose payment method, apply offers available, make payment
+	• Receive confirmation or failure notification
+	• Have the tickets in 'Booked events' tab
+	• Cancel tickets
+
+	• Stretch goals - can share ticket details, can add to calendar, subscribe for upcoming movies, apply coupon / gift vouchers, 
+  add snacks(optional)
+  
+  
+	3. Theatre Partners:
+	• Add/ Update screen locations, show timings
+	• Add/Update type of seat (gold, classic, platinum),seat arrangement or layout, available seats
+	• Add/ Update pricing
+	• Add/Update language, movie format, genre
+	• Give booking confirmation
+  
+   Note: Assuming counter bookings are updated via this login
+  
+	4. System
+	• Onboarding
+	• Handle concurrency while booking
+	• Billing amount calculation
+	• Payment confirmation 
+	• Ticket Generation
+	• Manage payment method(CRUD)
+	• Send notifications on booked and upcoming via SMS, Email, WhatsApp
+  
+	• Stretch goals - Display nearby theatres based on current location, notify users on new offers/releases
+  
+  5. General
+	• Registration / Login
+	• Feedback
+	• Customer support
+  . Status of transaction
+  
+	
+	
+	
+	
+	
