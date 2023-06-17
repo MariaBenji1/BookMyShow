@@ -2,7 +2,6 @@ Functional Requirements
 
 	1. Actors :
 	• Users
-	• Operator 
 	• Theatre partners
 	• System Admin
   
@@ -10,8 +9,8 @@ Functional Requirements
 	2. Users :
 	• Set city location
 	• Search based on movies /language/genres/format
-	• Display movie information like trailer,format(2D,4D), duration, cast,reviews, offers
-	• Display dates of screening ,theater location ,display seat availability
+	• Display movie information like trailer,format(2D,4D), duration, cast,reviews, offers (Read only)
+	• Display dates of screening ,theater location ,display seat availability (Read only)
 	• Book by selecting date and time, location, number of seats (limit per transaction),seat location
 	• Choose payment method, apply offers available, make payment
 	• Receive confirmation or failure notification
@@ -19,26 +18,29 @@ Functional Requirements
 	• Cancel tickets
 
 	• Stretch goals - can share ticket details, can add to calendar, subscribe for upcoming movies, apply coupon / gift vouchers, 
-  add snacks(optional)
+          add snacks(optional)
   
   
 	3. Theatre Partners:
-	• Add/ Update screen locations, show timings
+	• Add/ Update locations, movies screening,screen details, show timings
 	• Add/Update type of seat (gold, classic, platinum),seat arrangement or layout, available seats
 	• Add/ Update pricing
 	• Add/Update language, movie format, genre
 	• Give booking confirmation
   
-   Note: Assuming counter bookings are updated via this login
+         Note: Assuming counter bookings are updated via this login
   
 	4. System
 	• Onboarding
+	. Add/Update/Delete movie details and theatre information
 	• Handle concurrency while booking
 	• Billing amount calculation
 	• Payment confirmation 
 	• Ticket Generation
 	• Manage payment method(CRUD)
 	• Send notifications on booked and upcoming via SMS, Email, WhatsApp
+	
+	 Note:Assuming system maintains information of the movie (trailer,cast,reviews) and displays info added by theatre partners
   
 	• Stretch goals - Display nearby theatres based on current location, notify users on new offers/releases
   
