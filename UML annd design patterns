@@ -1,0 +1,14 @@
+
+1) Strategy design patterns 
+. Movies search based on various filters
+.Diff payment methods 
+
+2)Factory design 
+. Can we creating different types of login - guest, user, premium user, theatre partner login
+.Having multiple theatre partners - Inox, pvr
+
+3) Singleton
+.creating single instance of movie manager who add/ deletes the movies 
+
+4) Obsevor pattern
+.if user have subscribed to an upcoming movie then any news, release dates etc notifications
